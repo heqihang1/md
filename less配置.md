@@ -2,9 +2,10 @@
   "scripts": {"start": "craco start",}
 ```
 src下创建文件 setupProxy.js
-
+安装
 ```bash
-  安装 npm install http-proxy-middleware
+   npm install @craco/craco --save
+   npm install http-proxy-middleware
 ```
 
 ```js
