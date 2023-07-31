@@ -1,13 +1,13 @@
 ```bash
   "scripts": {"start": "craco start",}
 ```
-src下创建文件 setupProxy.js
+
 安装
 ```bash
    npm install @craco/craco --save
    npm install http-proxy-middleware
 ```
-
+src下创建文件 setupProxy.js
 ```js
     const { createProxyMiddleware } = require('http-proxy-middleware')
     const target = 'http://192.168.0.0:3000';
